@@ -1,1 +1,1 @@
-A blockchain dev tool offering essential tools for development, testing, deployment, and auditing. Built with Rust and JavaScript, it supports multi-language coding, local nodes, smart contract lin…
+A blockchain dev tool offering essential tools for development, testing, deployment, and auditing. Built with Rust and JavaScript, it supports multi-language coding, local nodes, smart contract linting, wallet integration, and analytics. This tool streamlines cross-chain interaction and enhances blockchain project workflows.
