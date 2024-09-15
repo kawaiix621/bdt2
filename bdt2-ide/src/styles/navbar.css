@@ -1,0 +1,19 @@
+button{
+    background-color: rgba(6, 6, 6, 0);
+    color: aliceblue;
+    border: none;
+    box-shadow: none;
+    margin: 10px;
+}
+
+.nav{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+}
+
+.run{
+    padding:5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}

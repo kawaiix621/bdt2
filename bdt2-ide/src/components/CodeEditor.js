@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import MonacoEditor from 'react-monaco-editor';
 import axios from 'axios';
+import '../styles/codeeditor.css'
 
 const CodeEditor = () => {
   const [code, setCode] = useState('// Write your code here...');
@@ -34,14 +35,17 @@ const CodeEditor = () => {
         theme="vs-dark"
         value={code}
         onChange={(newCode) => setCode(newCode)}
-        height="400"
+        height="500"
         options={editorOptions}
       />
-      <button onClick={runCode}>Run Code</button>
-      <div>
-        <h3>Output:</h3>
+
+
+
+      <div className='timeline'>
+      <button onClick={runCode}>Audit Code</button>
         <pre>{output}</pre>
       </div>
+
     </div>
   );
 };

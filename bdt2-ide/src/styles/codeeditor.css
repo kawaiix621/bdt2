@@ -1,0 +1,12 @@
+.timeline{
+    color: black;
+    background-color: rgb(81, 214, 198);
+    height:calc(100vh - 500px)
+}
+
+.timeline button{
+    color:black;
+    padding: 5px;
+    border-radius:5px;
+    background-color: rgb(255, 252, 79);
+}

@@ -1,12 +1,14 @@
 // src/components/Layout.js
 import React from 'react';
+import NavBar from './NavBar';
 import CodeEditor from './CodeEditor';
+import '../styles/layout.css'
 
 const Layout = () => {
   return (
-    <div style={{ padding: '20px', border: '1px solid #ddd' }}>
-      <h2>Code Editor Layout</h2>
-      <CodeEditor />
+    <div>
+      <NavBar/>
+        <CodeEditor />
     </div>
   );
 };
